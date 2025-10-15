@@ -37,3 +37,17 @@ pip install requests
 ### - Listando as bibliotecas instaladas
 
 pip freeze > requirements.txt
+
+## FastAPI
+
+### - Instalando no ambiente virtual as dependências do FastAPI
+
+pip install fastapi
+
+### - Instalando no ambiente virtual o uvicorn, que será utilizado como um servidor para rodar a API
+
+pip install uvicorn
+
+### - Para executar a API no servidor, usar comando
+
+uvicorn main:app --reload
